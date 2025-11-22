@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python3
+Module=gedit_LLaMA
+IAge=3
+Name=Gedit LLaMA
+Description=Send selected text + a custom prompt to a /v1/chat/completions endpoint (llama.cpp) and insert the answer.
+Authors=ali0une
+Version=1.2.5
+Website=https://github.com/ali0une

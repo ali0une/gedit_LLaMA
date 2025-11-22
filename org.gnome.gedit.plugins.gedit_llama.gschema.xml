@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.gedit.plugins.gedit_llama" path="/org/gnome/gedit/plugins/gedit_llama/">
+
+    <key name="api-url" type="s">
+      <default>'http://127.0.0.1:5000/v1/chat/completions'</default>
+      <summary>API URL</summary>
+    </key>
+
+    <key name="api-key" type="s">
+      <default>''</default>
+      <summary>API KEY (optional)</summary>
+    </key>
+
+    <key name="shortcut" type="s">
+      <default>"&lt;Ctrl&gt;&lt;Alt&gt;l"</default>
+      <summary>Keyboard Shortcut</summary>
+    </key>
+
+    <key name="model" type="s">
+      <default>'llama.cpp'</default>
+      <summary>The model name to send to the API</summary>
+    </key>
+
+  </schema>
+</schemalist>
